@@ -24,7 +24,6 @@ body{
         
     );
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .main{
@@ -32,6 +31,7 @@ body{
     width: 100%;
     
 }
+
 
 .form{
     width: 100%;
@@ -54,6 +54,7 @@ body{
 
 .box-card{
     margin-top: 1%;
+    color: var(--color-text);
 }
 
 a{
@@ -191,4 +192,18 @@ a:hover{
     background-color: #3f37c9; /*#028090*/
     padding: 15px;
     border-radius: 8px;
+}
+
+.select{
+    width: 35%;
+    padding: 10px;
+}
+
+.search-button{
+    width: 80px;
+    margin-left: .2%;
+}
+
+.title-attractive{
+    font-weight: bold;
 }

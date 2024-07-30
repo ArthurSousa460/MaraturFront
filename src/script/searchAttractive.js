@@ -18,7 +18,7 @@ async function getIdAtrractive(){
 }
 
 function updateURL(){
-    const select = document.querySelector("#select");
+    const select = document.querySelector(".select");
     const name = select.value;
     window.location.replace(`searchAttractive.html?name=${name}`);
 }

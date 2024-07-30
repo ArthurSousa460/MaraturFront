@@ -1,6 +1,6 @@
 const container = document.querySelector(".container");
 const titleDocument = document.querySelector("#title-document");
-;
+
 
 const map = L.map('map')
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -56,7 +56,8 @@ async function getAttractive(){
 
     
     divInfoBox.setAttribute("class", "info-box");
-    divButtonBox.setAttribute("class", "buttons-box")
+    divButtonBox.setAttribute("class", "buttons-box");
+    title.setAttribute("class", "title-attractive");
 
     if(origin == "searchAttractive.html"){
         buttonBack.setAttribute("href", "searchAttractive.html");
