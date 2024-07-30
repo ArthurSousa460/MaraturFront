@@ -69,6 +69,7 @@ a:hover{
 }
 
 .container{
+    height: 100%;
     color: #f2e9e4;
     margin-top: 50px ;
     display: flex;
@@ -214,7 +215,7 @@ a:hover{
     }
     #map{
         width: 50%;
-        margin-bottom: 2%;
+        margin-bottom: 3%;
     }
     .buttons-box{
         justify-content: center;
