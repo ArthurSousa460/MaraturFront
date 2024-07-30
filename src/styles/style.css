@@ -212,4 +212,7 @@ a:hover{
     .container{
         flex-direction: column;
     }
+    #map{
+        width: 50%;
+    }
 }
