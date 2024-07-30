@@ -207,3 +207,9 @@ a:hover{
 .title-attractive{
     font-weight: bold;
 }
+
+@media(max-width: 1230px){
+    .container{
+        flex-direction: column;
+    }
+}
