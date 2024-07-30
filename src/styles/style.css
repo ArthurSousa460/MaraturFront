@@ -214,5 +214,9 @@ a:hover{
     }
     #map{
         width: 50%;
+        margin-bottom: 2%;
+    }
+    .buttons-box{
+        justify-content: center;
     }
 }
