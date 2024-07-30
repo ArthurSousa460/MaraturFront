@@ -24,6 +24,7 @@ body{
         
     );
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .main{
@@ -140,6 +141,7 @@ a:hover{
 
 .main-index{
     height: 65%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,5 +172,23 @@ a:hover{
 }
 
 
-.describe-app{
+.describe-text {
+    text-align: center;
+    font-size: 17px;
+    font-weight: medium;
+}
+
+.main-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+    margin-top: 3%;
+}
+
+.main-buttons a{
+    background-color: #3f37c9; /*#028090*/
+    padding: 15px;
+    border-radius: 8px;
 }
