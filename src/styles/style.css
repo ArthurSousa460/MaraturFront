@@ -220,4 +220,8 @@ a:hover{
     .buttons-box{
         justify-content: center;
     }
+    .attractive-image{
+        width: 70%;
+        height: 70%;
+    }
 }
