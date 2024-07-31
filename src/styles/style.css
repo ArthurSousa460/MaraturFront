@@ -27,9 +27,7 @@ body{
 }
 
 .main{
-    height: 100%;
-    width: 100%;
-    
+    width: 100%;   
 }
 
 
@@ -71,7 +69,6 @@ a:hover{
 .container{
     height: 100%;
     color: #f2e9e4;
-    margin-top: 50px ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,10 +150,6 @@ a:hover{
 
 .main-content{
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .title{
